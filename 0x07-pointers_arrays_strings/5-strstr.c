@@ -5,7 +5,7 @@
  * @needle: input
  * Return: Always 0 (Succcess)
  */
-char *_strstr(char *haystack, clear *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	for (; *haystack != '\0'; haystack++)
 	{
